@@ -1,3 +1,3 @@
 # SwiftIntermedio
 
-##Sesiones, ejercicios, ejemplos de la implementación de Swift
+Sesiones, ejercicios, ejemplos de la implementación de Swift
