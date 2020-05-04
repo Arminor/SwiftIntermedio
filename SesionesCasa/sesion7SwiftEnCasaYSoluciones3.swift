@@ -1,5 +1,5 @@
 import Foundation
-import Foundation
+
 
 //Problema del Menú 
 
@@ -152,7 +152,7 @@ if var valor = outlet  { print(valor); valor = "Cambiamos el valor"; print(valor
 else { print("Variable outlet es NIL") }
 
 
-if let constante = outlet  { print(outlet!) }
+if let constante = outlet  { print(constante) }
 else { print("Variable outlet es NIL") }
 
 
