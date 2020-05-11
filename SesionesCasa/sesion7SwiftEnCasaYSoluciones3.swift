@@ -202,3 +202,23 @@ presenta(persona: ["Nombre": "Andrés", "Edad": "24"])
 
 //Intenta resolver el problema del guard con iteraciones.
 
+func presenta(persona: [String: String]) {
+
+    for (llave , valor) in persona {
+       
+        guard let valor = persona[llave]
+        else { return } 
+        
+        switch llave {
+            case "Nombre": print("Me llamo \(valor).") 
+            case "Lugar" : print("Vivo en \(valor).")
+            case "Carrera": print("Estudio la carrera de \(valor).")
+            case "Edad": print("Tengo \(valor) años.")
+            default: print("Llave inexistente")
+        }
+        
+    } 
+}
+
+presenta(persona: ["Nombre": "Andrés","Edad": "24"])
+
