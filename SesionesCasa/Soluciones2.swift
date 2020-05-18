@@ -7,7 +7,7 @@ import Foundation
 //1
 var cadena = ""
  
-func potencias( _ n: Int, _ x: Int)->Int{
+func potenciasDeDos( _ n: Int, _ x: Int)->Int{
  
   if x > 15{    
     return 0
@@ -19,7 +19,7 @@ func potencias( _ n: Int, _ x: Int)->Int{
     return potencias(n * 2, x + 1)
  }
 }
-potencias(2,0)
+potencias(1,0)
  
 //2
 func sigma(vi: Double, vf: Double)-> Double{
